@@ -18,29 +18,12 @@ npm install --save-dev @androlax2/cspell-laravel
 
 ## Configuration
 
-<details>
-<summary>CSpell Settings <code>cspell.json</code></summary>
+Add the following to your project's cspell configuration file (e.g. `cspell.json`, `.vscode/cspell.json`):
 
-**`cspell.json`**
-
-```jsonc
+```json
 {
-  "dictionaries": [
-    "laravel"
+  "import": [
+    "@androlax2/cspell-laravel/cspell-ext.json"
   ]
 }
 ```
-
-</details>
-
-<details>
-<summary>CSpell Settings <code>cspell.config.yaml</code></summary>
-
-**`cspell.config.yaml`**
-
-```yaml
-dictionaries:
-  - laravel
-```
-
-</details>

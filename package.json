@@ -20,7 +20,8 @@
     "url": "https://github.com/Androlax2/cspell-laravel/issues"
   },
   "files": [
-    "dict/*"
+    "dict/*",
+    "cspell-ext.json"
   ],
   "keywords": [
     "cspell",
