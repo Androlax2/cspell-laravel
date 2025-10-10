@@ -1,6 +1,6 @@
 {
   "name": "@androlax2/cspell-laravel",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "Laravel dictionary for cspell.",
   "author": "Théo Benoit <theo.benoit16@gmail.com>",
   "license": "MIT",
