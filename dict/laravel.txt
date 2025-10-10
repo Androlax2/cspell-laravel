@@ -3,3 +3,5 @@ nunomaduro
 larastan
 pestphp
 pest
+canvural
+testbench
