@@ -29,8 +29,5 @@
     "laravel",
     "dictionary",
     "spelling"
-  ],
-  "devDependencies": {
-    "cspell-cli": "^9.2.0"
-  }
+  ]
 }
