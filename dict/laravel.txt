@@ -1,0 +1,5 @@
+laravel
+nunomaduro
+larastan
+pestphp
+pest

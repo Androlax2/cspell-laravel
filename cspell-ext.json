@@ -1,0 +1,16 @@
+{
+  "id": "laravel",
+  "name": "Laravel",
+  "readonly": true,
+  "description": "Laravel dictionary.",
+  "dictionaryDefinitions": [
+    {
+      "name": "laravel",
+      "path": "./dict/laravel.txt",
+      "description": "Laravel dictionary."
+    }
+  ],
+  "dictionaries": [
+    "laravel"
+  ]
+}

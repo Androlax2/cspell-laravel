@@ -1,0 +1,36 @@
+{
+  "name": "@androlax2/cspell-laravel",
+  "version": "1.0.0",
+  "description": "Laravel dictionary for cspell.",
+  "author": "Théo Benoit <theo.benoit16@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Androlax2/cspell-laravel",
+    "directory": "dictionaries/software-terms"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "exports": {
+    ".": "./cspell-ext.json",
+    "./cspell": "./cspell-ext.json",
+    "./cspell-ext.json": "./cspell-ext.json"
+  },
+  "bugs": {
+    "url": "https://github.com/Androlax2/cspell-laravel/issues"
+  },
+  "files": [
+    "dict/*"
+  ],
+  "keywords": [
+    "cspell",
+    "laravel",
+    "dictionary",
+    "spelling"
+  ],
+  "devDependencies": {
+    "cspell-cli": "^9.2.0"
+  }
+}
