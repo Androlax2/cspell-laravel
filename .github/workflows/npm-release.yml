@@ -4,6 +4,9 @@ on:
   release:
     types: [ released ]
 
+permissions:
+  contents: write
+
 jobs:
   release:
     name: Build and Release
@@ -41,14 +44,17 @@ jobs:
           @androlax2:registry=https://registry.npmjs.org/
           EOF
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Publish to npm
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Commit updated package.json
+      - name: Commit version update
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          branch: main
           commit_message: "chore: update version to ${{ steps.get_version.outputs.version }}"
           file_pattern: package.json
-          skip_fetch: true
